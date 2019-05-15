@@ -2,6 +2,48 @@ body{
 	background-color: #eedae9;
 	color: black
 }
+header{
+  background: rgba(242,242,239,0.4);
+  color: white;
+  margin-left:20%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 300px;
+  border: solid 5px black;
+  border-radius: 100px;
+  color: white;
+  text-align: center;
+}
+footer{
+  background-color: #0B1E63;
+  margin-left:80%;
+  margin-top:25%;
+  text-align: left;
+  padding:0.5cm;
+  letter-spacing:0.1cm;
+  font:bold 15px Georgia;
+  border: solid 5px black;
+  border-radius: 120px;
+  color: white;
+  background: rgba(89,125,255,0.3)
+}
+nav ul{
+  list-style-type:none;
+  margin-left:5%;
+  overflow: hidden;
+  
+}
+nav li{
+  background-color: #597dff;
+  display:inline-block;
+  text-align: center;
+  padding:10px;
+  border: solid 2px black;
+  border-radius: 200px;
+  text-decoration: none;
+  color: gray;
+  background: rgba(242,242,239,0.4)
+}
 /* Сделать оформление оформление для заголовков */
 /* Сделать оформление оформление для подвала */
 /* Сделать оформление оформление для меню навигации */
