@@ -5,31 +5,6 @@
 	<meta charset="utf-8">
 	<!--Удалить функции рисующие геометрические фигуры-->
 	<script type="text/javascript">
-		function joon(){
-		var p=document.getElementById("plate").getContext("2d");
-		//линия
-		p.beginPath();
-		p.lineWidth="5";
-		p.strokeStyle="red"
-		p.moveTo(20,20);
-		p.lineTo(100, 100);
-		p.lineTo(150, 60)
-		p.stroke();
-		}
-		function ruut(){
-		var p=document.getElementById("plate").getContext("2d");
-		//Прямоугольник
-		p.fillStyle="black";
-		p.fillRect(100, 100, 40, 50); //x, y, laius, kõrgus
-		}
-		function ring(){
-		var p=document.getElementById("plate").getContext("2d");
-		//Круг
-		p.beginPath();
-		p.arc(150, 150, 30, 0, 2*Math.PI, true); //x, y, radius,
-		p.fillStyle="green";
-		p.fill();
-		}
 		function kustuta(){
 		var p=document.getElementById("plate").getContext("2d");
 		p.clearRect(0,0,400,400);
